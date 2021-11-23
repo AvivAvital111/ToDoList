@@ -1,0 +1,90 @@
+ body {
+    background-color: #98999996;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 15%;
+    background-color: #28097096;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 300%;
+    display: flex;
+    align-self: center;
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 100%;
+    display: flex;
+    align-self: center;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    overflow: auto;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+
+.checkbox {
+    transform: scale(3);
+    display: flex;
+}
+
+
+#input_div {
+    display: flex;
+    transform: scale(2);
+    justify-content: center;
+    margin-top: 5%;
+    width: 75%;
+    align-self: center;
+
+}
+
+#task_input {
+    width: 50%;
+    background-color:  #181bcc2f;
+    display: flex;
+    text-align: center;
+} 
+
+.task_desc {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+th.task_desc {
+    display: flex;
+}
+
+.delete_button {
+    transform: scale(1.5);
+    color: red;
+}
+
+#table_header {
+    background-color: #28097054;
+    border-bottom: 2px solid black;
+}
