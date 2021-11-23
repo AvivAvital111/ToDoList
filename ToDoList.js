@@ -28,11 +28,10 @@ function deleteTasks() {
     toDoItems = toDoItems.filter(deleteTask)
 }
 
-function createCheckbox(task_id) {
+function createCheckbox() {
     let checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.className = 'checkbox'
-    checkbox.id = 'checkbox' + task_id;
     return checkbox
 }
 
@@ -52,7 +51,6 @@ function createDeleteTaskButton(task_id) {
     let delete_button = document.createElement('button');
     delete_button.textContent = "X"
     delete_button.className = 'delete_button'
-    delete_button.id = 'delete_button' + task_id
     delete_button.onclick = () => {deleteSingleTask(task_id)}
     return delete_button
 }
@@ -66,7 +64,7 @@ function createEntry(task) {
     task_description.textContent = task.taskDesctiption;
     task_description.className = 'task_desc'
     delete_task.prepend(createDeleteTaskButton(task.id))
-    entry.id = "task" + task.id;
+    entry.id = "entry" + task.id;
     entry.className = 'TaskEntry'
     entry.append(mark, task_description, delete_task)
     return entry
