@@ -1,7 +1,12 @@
- body {
+html {
+    font-family: sans-serif;
+}
+
+body {
     background-color: #98999996;
     display: flex;
     flex-direction: column;
+    
 }
 
 .header {
@@ -43,6 +48,10 @@ tr {
     text-align: center;
     border-bottom: 1px solid rgb(84, 11, 126);
 
+}
+
+tr:nth-child(2n+1) {
+    background-color: #8e789242
 }
 
 
