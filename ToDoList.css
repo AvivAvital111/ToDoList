@@ -11,7 +11,7 @@ body {
 
 .header {
     height: 15%;
-    background-color: #28097096;
+    background-color: #45327296;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -62,17 +62,16 @@ tr:nth-child(2n+1) {
 
 
 #input_div {
+    width: 50%;
     display: flex;
     transform: scale(2);
     justify-content: center;
     margin-top: 5%;
-    width: 75%;
     align-self: center;
-
 }
 
 #task_input {
-    width: 50%;
+    width: 85%;
     background-color:  #181bcc2f;
     display: flex;
     text-align: center;
