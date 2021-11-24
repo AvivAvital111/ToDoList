@@ -6,16 +6,19 @@ body {
     background-color: #98999996;
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
 }
 
 .header {
     height: 15%;
+    width: 100%;
+    overflow-x: hidden;
     background-color: #45327296;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    border: 2px solid rgb(91, 13, 122);
+    border-bottom: 2px solid rgb(91, 13, 122);
+    
 }
 
 h1{
